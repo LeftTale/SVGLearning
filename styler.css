@@ -1,0 +1,22 @@
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-item1-header1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid-item1-header2{
+    grid-column-start: 3;
+
+}
+.grid-item1{
+    border-style: solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid-item2{
+    border-style: solid;
+    grid-column-start: 3;
+}
+
