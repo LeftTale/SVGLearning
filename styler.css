@@ -1,6 +1,7 @@
 .grid-container1{
     display: grid;
     grid-template-columns: auto auto;
+    width: 50%;
 }
 .grid-item1-header1{
     grid-column-start: 1;
@@ -18,5 +19,12 @@
 .grid-item2{
     border-style: solid;
     grid-column-start: 3;
+
+}
+.answer-boxes{
+    height: 98%;
+    width: 98%;
+    border-style: none;
+
 }
 
